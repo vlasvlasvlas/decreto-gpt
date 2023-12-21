@@ -1,8 +1,8 @@
-# Decreto Milei GPT Analyze
+# DECRETO-GPT // CHAT-DNU
 
 ## Porqué?
 
-Para entender de que va el decreto.
+Con el fin de comprender el Decreto de Necesidad de Urgencia (DNU) que desregula la economía, emitido el 20 de diciembre de 2023 por el presidente Javier Milei.
 
 ## Cómo?
 
