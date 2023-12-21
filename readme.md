@@ -1,4 +1,4 @@
-# Decreti Milei GPT Analyze
+# Decreto Milei GPT Analyze
 
 ## Porqué?
 
