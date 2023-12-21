@@ -10,10 +10,10 @@ Descargando los scripts o corriendo la notebook y pudiendo asi entender los comp
 
 ## Pasos
 
-- levantar un entorno virtual o instalando python 3.10+
+- levantar un entorno virtual o instalando python +3.10
 - instalar las dependencias del requirements.txt
-- tener una key de openai, ah tenes que usar algun modelo que te permita +19k tokens asi que seh.
-- ejecutar el test.py o revisar el notebook.
+- tener una key de openai, ah tenes que usar algun modelo que te permita +19k tokens asi que, seh.
+- ejecutar el analisis.py o revisar el notebook analisis_con_respuestas.py
 
 
 ## Quiero hacer preguntas!
