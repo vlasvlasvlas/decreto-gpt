@@ -36,3 +36,8 @@ Abrite directamente el notebook donde hay respuestas a preguntas armadas, queres
 
 Notebook : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/analisis_con_respuestas.ipynb
 
+
+## Otras fuentes de conocimiento
+
+@agussxng (tw) armó este detalle del DNU que también esta super bueno para entender un poco más: https://docs.google.com/document/d/1vvddhIhH5MRPc2Rk1XtkBW0PV76_y5G_5UVt8v1I61A/edit
+
