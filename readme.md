@@ -4,13 +4,16 @@
 
 Con el fin de comprender el Decreto de Necesidad de Urgencia (DNU) que desregula la economía, emitido el 20 de diciembre de 2023 por el presidente Javier Milei.
 
+Permite generar una extracción a texto del pdf, y generar preguntas específicas al DNU utilizando modelos LLMG como GPT-4 de OpenAi.
+
+
 ## Cómo?
 
 Descargando los scripts o corriendo la notebook y pudiendo asi entender los componentes del decreto haciendole preguntas al documento pdf.
 
 ## Pasos para instalación
 
-- Tener instalado PYthon 3.9+
+- Tener instalado Python 3.9+
 - Idealmente levantar un entorno virtual (ej: python -m venv venv) y usarlo (source venv/bin/activate // o en Windows: venv\Scripts\activate)
 - instalar las dependencias del requirements.txt (pip install -r requirements.txt)
 - tener una key de openai (te registrás y te dan una key)
