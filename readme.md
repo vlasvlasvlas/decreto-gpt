@@ -4,7 +4,7 @@
 
 Con el fin de comprender el Decreto de Necesidad de Urgencia (DNU) que desregula la economía, emitido el 20 de diciembre de 2023 por el presidente Javier Milei.
 
-Permite generar una extracción a texto del pdf, y realizar preguntas específicas al DNU utilizando modelos LLM como GPT-4 de OpenAi.
+Permite generar una extracción a texto del pdf, y realizar preguntas específicas al DNU utilizando modelos LLM como GPT-4-Turbo (último release) de OpenAi.
 
 
 ## Cómo?
@@ -18,7 +18,7 @@ Descargando los scripts o corriendo la notebook y pudiendo asi entender los comp
 - instalar las dependencias del requirements.txt (pip install -r requirements.txt)
 - tener una key de openai (te registrás y te dan una key)
 - renombar el archivo .env.dummy por .env y pegar ahí tu key de openai en el API_KEY
-- se recomienda usar modelos que soporten muchos tokens (+19k para el decreto xq es largo)
+- se recomienda usar modelos que soporten muchos tokens (+19k para el decreto xq es largo), el mejorcito que me funcionó fue GPT-4-Turbo.
 - revisá y ejecutá el archivo analisis.py para poder ir generando preguntaqs al doc
 - revisá y utiliza el notebook analisis_con_respuestas.py para tenerlo en formato jupyter notebook o ipython con respuesta formateada en markdown
 
