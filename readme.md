@@ -18,9 +18,9 @@ Descargando los scripts o corriendo la notebook y pudiendo asi entender los comp
 
 ## Quiero hacer preguntas!
 
-pasame las pregs que quieras como issue y las sumo al notebook!
+Descargate el repo y usalo en tu compu! haces las preguntas que necesites.
 
-acá creas un issue, poné la pregunta que quieras y las sumo al notebook: https://github.com/vlasvlasvlas/decreto-gpt/issues
+Sino: pasame las pregs que quieras como issue y las sumo al notebook! Creas un issue, poné la pregunta que quieras y las sumo al notebook: https://github.com/vlasvlasvlas/decreto-gpt/issues
 
 
 
