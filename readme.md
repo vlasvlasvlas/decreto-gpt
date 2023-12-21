@@ -19,8 +19,8 @@ Descargando los scripts o corriendo la notebook y pudiendo asi entender los comp
 - tener una key de openai (te registrás y te dan una key)
 - renombar el archivo .env.dummy por .env y pegar ahí tu key de openai en el API_KEY
 - se recomienda usar modelos que soporten muchos tokens (+19k para el decreto xq es largo), el mejorcito que me funcionó fue GPT-4-Turbo.
-- revisá y ejecutá el archivo analisis.py para poder ir generando preguntaqs al doc
-- revisá y utiliza el notebook analisis_con_respuestas.py para tenerlo en formato jupyter notebook o ipython con respuesta formateada en markdown
+- revisá y ejecutá el archivo analisis.py para poder ir generando preguntas que necesites al doc
+- revisá y utiliza el notebook analisis_con_respuestas.py para tenerlo en formato jupyter notebook o ipython con respuesta formateada en markdown, o para revisar preguntas ya hechas
 
 
 ## Quiero hacer preguntas!
