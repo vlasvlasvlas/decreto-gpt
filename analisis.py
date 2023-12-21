@@ -10,10 +10,8 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 pdf_file = os.getenv("FILE_PDF")
 
-
 # Configurar OpenAI
 openai.api_key = api_key
-
 
 def leer_pdf(ruta):
     with open(ruta, "rb") as pdf_file_obj:
@@ -30,7 +28,6 @@ def leer_pdf(ruta):
 
     return texto
 
-
 # gpt-4-1106-preview
 # gpt-3.5-turbo-1106
 # gpt-3.5-turbo
@@ -40,6 +37,7 @@ ai_model = "gpt-4-1106-preview"
 
 
 # Hacer una pregunta al texto
+
 def hacer_pregunta(texto, pregunta):
     respuesta = openai.ChatCompletion.create(
         model=ai_model,
