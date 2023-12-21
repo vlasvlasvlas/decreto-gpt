@@ -47,3 +47,4 @@ Notebook : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/analisis_con_re
 
 - @rama_moyano_ (tw) creó una gui para un gpt también! necesitas plus para usarlo pero acá la info: https://twitter.com/rama_moyano_/status/1737831367218716964
 
+- se suma una versión de langchain's chat-your-data en la carpeta de langchain-chat-your-data del repo para el que le guste meter mano desde esa perspectiva.
