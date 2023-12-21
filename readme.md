@@ -4,7 +4,7 @@
 
 Con el fin de comprender el Decreto de Necesidad de Urgencia (DNU) que desregula la economía, emitido el 20 de diciembre de 2023 por el presidente Javier Milei.
 
-Permite generar una extracción a texto del pdf, y generar preguntas específicas al DNU utilizando modelos LLMG como GPT-4 de OpenAi.
+Permite generar una extracción a texto del pdf, y realizar preguntas específicas al DNU utilizando modelos LLM como GPT-4 de OpenAi.
 
 
 ## Cómo?
