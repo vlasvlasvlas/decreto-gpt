@@ -40,7 +40,6 @@ def leer_pdf(ruta):
     
     return texto
 
-
 #gpt-4-1106-preview
 #gpt-3.5-turbo-1106
 #gpt-3.5-turbo
@@ -53,7 +52,7 @@ def hacer_pregunta(texto, pregunta):
     respuesta = openai.ChatCompletion.create(
       model=ai_model,
       messages=[
-            {"role": "system", "content": "Estás analizando un decreto de necesidad de urgencia de la República Argentina. Comportate como el mejor analista político de la historia Argentina. Tenes que ser muy serio y preciso, y si no sabes que es algo tenes que poder decir que no lo sabes. Siempre que puedas, contextualizá tu respuesta."},
+            {"role": "system", "content": "Estás analizando un decreto de necesidad de urgencia de la República Argentina. Comportate como el mejor analista económico-político de historia Argentina. Tenes que ser muy serio y preciso. Si hay algo que no sabes o no tenes la respuesta bien clara, tenés que decir que no lo sabes. Tu mirada sobre el tema debe ser neutra. Siempre que puedas, contextualizá tu respuesta."},
             {"role": "user", "content": texto},
             {"role": "user", "content": pregunta},
         ]
@@ -62,11 +61,14 @@ def hacer_pregunta(texto, pregunta):
 
 
 
+
 # Leer el PDF
 ruta = pdf_file  # Reemplaza esto con la ruta a tu archivo PDF
 texto = leer_pdf(ruta)
 
-# Hacer una pregunta al texto
+
+
+# Hacer una pregunta al texto!
 pregunta = '¿Cuál es el tema principal del documento?'  # Reemplaza esto con tu pregunta
 respuesta = hacer_pregunta(texto, pregunta)
 print("Respuesta:", respuesta)

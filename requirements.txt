@@ -3,3 +3,4 @@ openai
 pandas
 numpy
 pypdf2
+ipython
