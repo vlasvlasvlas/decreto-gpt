@@ -37,6 +37,17 @@ Abrite directamente el notebook donde hay respuestas a preguntas armadas, queres
 Notebook : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/analisis_con_respuestas.ipynb
 
 
+## Langchain chat-your-data versión disponible 
+
+Se suma una versión del gran repo de chat-your-data de langchain (https://github.com/hwchase17/chat-your-data)
+
+- lo podés usar de la carpeta de /langchain-chat-your-data/ del repo para el que le guste meter mano desde esa perspectiva.
+- YA esta creda la vector-database con el contenido del DNU! 
+- instalate las dependencias de la carpeta (pip install -r requirements.txt)
+- Tenés que correr un export OPENAI_API_KEY=tu_clave
+- Levantás la aplicación con python app.py, y listop.
+
+
 ## Otras fuentes de conocimiento
 
 - se volcó a texto utf-8 el total del documento dnu y está disponible en este repo con el nombre dnu_a_texto.txt
@@ -47,4 +58,3 @@ Notebook : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/analisis_con_re
 
 - @rama_moyano_ (tw) creó una gui para un gpt también! necesitas plus para usarlo pero acá la info: https://twitter.com/rama_moyano_/status/1737831367218716964
 
-- se suma una versión de langchain's chat-your-data en la carpeta de langchain-chat-your-data del repo para el que le guste meter mano desde esa perspectiva.
