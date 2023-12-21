@@ -27,8 +27,7 @@ Descargate el repo y usalo en tu compu! haces las preguntas que necesites.
 Sino: podés subir las pregs que quieras como issue y las sumo al notebook: create un issue, poné la pregunta que quieras obtener una respuesta y las sumo al notebook: https://github.com/vlasvlasvlas/decreto-gpt/issues
 
 
-
-## Quiero las respuestas que ya existen
+## Quiero ver las respuestas que ya existen
 
 Abrite directamente el notebook donde hay respuestas a preguntas armadas, queres que suba mas preguntas? armate un issue y las voy sumando, o forkeate esto y pone las pregs que vos quieras.
 
