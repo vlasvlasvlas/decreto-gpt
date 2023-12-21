@@ -17,6 +17,7 @@ text_splitter = CharacterTextSplitter(
     chunk_overlap=100,
     length_function=len,
 )
+
 documents = text_splitter.split_documents(raw_documents)
 
 
