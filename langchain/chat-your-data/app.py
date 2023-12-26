@@ -54,7 +54,7 @@ block = gr.Blocks(css=".gradio-container {background-color: lightgray}")
 with block:
     with gr.Row():
         gr.Markdown(
-            "<h3><center>Chat-Your-Data (State-of-the-Union)</center></h3>")
+            "<h3><center>DECRETO-PDF // CHAT-DNU</center></h3>")
 
         openai_api_key_textbox = gr.Textbox(
             placeholder="Pega tu clave API de OpenAI (sk-...)",

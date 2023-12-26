@@ -6,6 +6,13 @@ from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 import pickle
 
+
+#gpt-4-1106-preview
+#gpt-3.5-turbo-1106
+#gpt-3.5-turbo
+
+ai_selected_model = 'gpt-4-1106-preview'
+
 _template = """Estás analizando un decreto de necesidad de urgencia de la República Argentina. Comportate como el mejor analista económico-político de historia Argentina. Tenes que ser muy serio y preciso. Si hay algo que no sabes o no tenes la respuesta bien clara, tenés que decir que no lo sabes. Tu mirada sobre el tema debe ser neutra. Siempre que puedas, contextualizá tu respuesta.
 
 Chat History:
@@ -29,13 +36,15 @@ QA_PROMPT = PromptTemplate(template=template, input_variables=[
 
 def load_retriever():
     with open("vectorstore.pkl", "rb") as f:
+        print("Loading vectorstore...")
         vectorstore = pickle.load(f)
+        print("Loaded.")
     retriever = VectorStoreRetriever(vectorstore=vectorstore)
     return retriever
 
 
 def get_basic_qa_chain():
-    llm = ChatOpenAI(model_name="gpt-4", temperature=0)
+    llm = ChatOpenAI(model_name=ai_selected_model, temperature=0)
     retriever = load_retriever()
     memory = ConversationBufferMemory(
         memory_key="chat_history", return_messages=True)
@@ -45,11 +54,7 @@ def get_basic_qa_chain():
         memory=memory)
     return model
 
-#gpt-4-1106-preview
-#gpt-3.5-turbo-1106
-#gpt-3.5-turbo
 
-ai_selected_model = 'gpt-4-1106-preview'
 
 def get_custom_prompt_qa_chain():
     llm = ChatOpenAI(model_name=ai_selected_model, temperature=0)
