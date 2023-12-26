@@ -36,8 +36,13 @@ Abrite directamente el notebook donde hay respuestas a preguntas armadas, queres
 
 Notebook : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/analisis_con_respuestas.ipynb
 
+![image](https://github.com/vlasvlasvlas/decreto-gpt/assets/4071796/ddbe1b16-7ec0-444f-9044-fc9128a81e0b)
+
 
 ## Langchain chat-your-data versión disponible 
+
+![image](https://github.com/vlasvlasvlas/decreto-gpt/assets/4071796/82902c47-738c-4ffa-a626-fb46310c37df)
+
 
 Se suma una versión del gran repo de chat-your-data de langchain (https://github.com/hwchase17/chat-your-data)
 
