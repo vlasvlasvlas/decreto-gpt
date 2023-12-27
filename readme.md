@@ -69,6 +69,6 @@ Se suma una versión del gran repo de chat-your-data de langchain (https://githu
 
 - @rama_moyano_ (tw) creó una gui para un gpt también! necesitas plus para usarlo pero acá la info: https://twitter.com/rama_moyano_/status/1737831367218716964
 
-- se comparte en formato JSON todos los articulos normalizados en formato JSON que figuran en el MEN-2023-7-APN-PTE (Ley ómnibus): https://github.com/vlasvlasvlas/decreto-gpt/blob/main/data/MEN-2023-7-APN-PTE_leyOmnibus_20231227-192229.json
+- se comparte en formato JSON todos los articulos normalizados en formato JSON que figuran en el MEN-2023-7-APN-PTE (Ley ómnibus): https://github.com/vlasvlasvlas/decreto-gpt/blob/main/data/MEN-2023-7-APN-PTE_leyOmnibus_20231227-192229.json (creado por @IqJose del grupo de usuaries de datos argentina https://t.me/+p9wJldjOIhE2N2Qx)
 
 
