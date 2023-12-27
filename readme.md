@@ -49,9 +49,6 @@ Notebook DNU-2023-70-APN-PTE : https://github.com/vlasvlasvlas/decreto-gpt/blob/
 
 ## Langchain chat-your-data versión disponible 
 
-![image](https://github.com/vlasvlasvlas/decreto-gpt/assets/4071796/82902c47-738c-4ffa-a626-fb46310c37df)
-
-
 Se suma una versión del gran repo de chat-your-data de langchain (https://github.com/hwchase17/chat-your-data)
 
 - lo podés usar de la carpeta de /langchain/chat-your-data/ del repo para el que le guste meter mano desde esa perspectiva.
