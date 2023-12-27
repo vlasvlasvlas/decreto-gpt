@@ -9,9 +9,11 @@ Permite generar una extracción a texto de los pdfs, y realizar preguntas espec�
 
 ## Update
 
-[x] DNU-2023-70-APN-PTE : DNU - Disposiciones que desregulan la economía. (20/12/2023)
+20/12/2023
+- [x] DNU-2023-70-APN-PTE : DNU - Disposiciones que desregulan la economía.
 
-[x] MEN-2023-7-APN-PTE :  Ómnibus - Ley de Bases y Puntos de Partida para la Libertad de los Argentinos (27/12/2023)
+27/12/2023
+- [x] MEN-2023-7-APN-PTE :  Ómnibus - Ley de Bases y Puntos de Partida para la Libertad de los Argentinos.
 
 ## Cómo?
 
@@ -57,8 +59,6 @@ Se suma una versión del gran repo de chat-your-data de langchain (https://githu
 - Tenés que correr un export OPENAI_API_KEY=tu_clave
 - Levantás la aplicación con python app.py, y listop.
 
-
-
 ## Otras fuentes de conocimiento
 
 - se volcó a texto utf-8 el total del documento dnu y está disponible en este repo con el nombre dnu_a_texto.txt
@@ -68,4 +68,7 @@ Se suma una versión del gran repo de chat-your-data de langchain (https://githu
 - BLapp, Asuntos Públicos y Parlamentarios, subió un pdf el cual dejo disponible en el git (Analisis_Decreto_de_Necesidad_y_Urgencia_Bases_para_la_Reconstrucción.pdf), el cual pueden acceder, tiene una especie de diff con las modificaciones de cada ley, muy bueno.
 
 - @rama_moyano_ (tw) creó una gui para un gpt también! necesitas plus para usarlo pero acá la info: https://twitter.com/rama_moyano_/status/1737831367218716964
+
+- se comparte en formato JSON todos los articulos normalizados en formato JSON que figuran en el MEN-2023-7-APN-PTE (Ley ómnibus): https://github.com/vlasvlasvlas/decreto-gpt/blob/main/data/MEN-2023-7-APN-PTE_leyOmnibus_20231227-192229.json
+
 
