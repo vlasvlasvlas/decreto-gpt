@@ -15,7 +15,7 @@ text_splitter = CharacterTextSplitter(
     separator="\n\n",
     chunk_size=600,
     chunk_overlap=100,
-    length_function=len,
+    length_function=len,    
 )
 
 documents = text_splitter.split_documents(raw_documents)

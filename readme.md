@@ -1,15 +1,21 @@
-# DECRETO-GPT // CHAT-DNU
+# DECRETOS-GPT // CHAT-DNUS
 
 ## Porqué?
 
-Con el fin de comprender el Decreto de Necesidad de Urgencia (DNU) que desregula la economía, emitido el 20 de diciembre de 2023 por el presidente Javier Milei.
+Con el fin de comprender los Decretos de Necesidad de Urgencia (DNU) que desregulan la economía, emitidos el 20 de diciembre de 2023 y posteriores leyes por el presidente Javier Milei.
 
-Permite generar una extracción a texto del pdf, y realizar preguntas específicas al DNU utilizando modelos LLM como GPT-4-Turbo (último release) de OpenAi.
+Permite generar una extracción a texto de los pdfs, y realizar preguntas específicas al DNUs y paquetes de leyes utilizando modelos LLM como GPT-4-Turbo (último release) de OpenAi.
 
+
+## Update
+
+[x] DNU-2023-70-APN-PTE : Disposiciones que desregulan la economía. (20/12/2023)
+
+[x] MEN-2023-7-APN-PTE :  Ley de Bases y Puntos de Partida para la Libertad de los Argentinos (27/12/2023)
 
 ## Cómo?
 
-Descargando los scripts o corriendo la notebook y pudiendo asi entender los componentes del decreto haciendole preguntas al documento pdf.
+Descargando los scripts o corriendo las notebooks y pudiendo asi entender los componentes del decreto haciendole preguntas al documento pdf.
 
 ## Pasos para instalación
 
@@ -25,16 +31,18 @@ Descargando los scripts o corriendo la notebook y pudiendo asi entender los comp
 
 ## Quiero hacer preguntas!
 
-Descargate el repo y usalo en tu compu! haces las preguntas que necesites.
+- Descargate el repo y usalo en tu compu! haces las preguntas que necesites.
 
-Sino: podés subir las pregs que quieras como issue y las sumo al notebook: create un issue, poné la pregunta que quieras obtener una respuesta y las sumo al notebook: https://github.com/vlasvlasvlas/decreto-gpt/issues
+- Sino: podés subir las pregs que quieras como issue y las sumo al notebook: create un issue, poné la pregunta que quieras obtener una respuesta y las sumo al notebook correspondiente: https://github.com/vlasvlasvlas/decreto-gpt/issues poniendo en el subject a que documento querés realizar la pregunta, y cuál es la pregunta.
 
 
 ## Quiero ver las respuestas que ya existen
 
 Abrite directamente el notebook donde hay respuestas a preguntas armadas, queres que suba mas preguntas? armate un issue y las voy sumando, o forkeate esto y pone las pregs que vos quieras.
 
-Notebook : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/analisis_con_respuestas.ipynb
+Notebook DNU-2023-70-APN-PTE : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/notebooks/DNU-2023-70-APN-PTE_analisis_con_respuestas.ipynb
+
+Notebook DNU-2023-70-APN-PTE : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/notebooks/MEN-2023-7-APN-PTE_analisis_con_respuestas.ipynb
 
 ![image](https://github.com/vlasvlasvlas/decreto-gpt/assets/4071796/ddbe1b16-7ec0-444f-9044-fc9128a81e0b)
 
@@ -47,10 +55,11 @@ Notebook : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/analisis_con_re
 Se suma una versión del gran repo de chat-your-data de langchain (https://github.com/hwchase17/chat-your-data)
 
 - lo podés usar de la carpeta de /langchain/chat-your-data/ del repo para el que le guste meter mano desde esa perspectiva.
-- YA esta creada la vector-database con el contenido del DNU! 
+- YA esta creada la vector-database con el contenido de cada documento! (*.pkl)
 - instalate las dependencias de la carpeta (pip install -r requirements.txt)
 - Tenés que correr un export OPENAI_API_KEY=tu_clave
 - Levantás la aplicación con python app.py, y listop.
+
 
 
 ## Otras fuentes de conocimiento
