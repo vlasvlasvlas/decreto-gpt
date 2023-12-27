@@ -2,7 +2,7 @@
 
 ## Porqué?
 
-Con el fin de comprender los Decretos de Necesidad de Urgencia (DNU) que desregulan la economía, emitidos el 20 de diciembre de 2023 y posteriores leyes por el presidente Javier Milei.
+Con el fin de comprender los Decretos de Necesidad de Urgencia (DNU) y posteriores leyes por el presidente Javier Milei.
 
 Permite generar una extracción a texto de los pdfs, y realizar preguntas específicas al DNUs y paquetes de leyes utilizando modelos LLM como GPT-4-Turbo (último release) de OpenAi.
 
