@@ -40,11 +40,13 @@ for i in range(1, 4):
 # Imprimir la cantidad de partes o chunks del texto
 print("-> Cant partes o chunks del texto:", len(partes))
 
+"""
 # estrategia 2 :     
 # Dividir el texto en partes usando "\nTÍTULO " como separador
 partes = texto.split("\nTÍTULO ")
 
 print("-> cant partes o chunks del texto:", len(partes))
+"""
 
 def hacer_pregunta(partes, pregunta):
     respuestas = []

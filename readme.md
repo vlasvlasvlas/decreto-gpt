@@ -9,9 +9,9 @@ Permite generar una extracción a texto de los pdfs, y realizar preguntas espec�
 
 ## Update
 
-[x] DNU-2023-70-APN-PTE : Disposiciones que desregulan la economía. (20/12/2023)
+[x] DNU-2023-70-APN-PTE : DNU - Disposiciones que desregulan la economía. (20/12/2023)
 
-[x] MEN-2023-7-APN-PTE :  Ley de Bases y Puntos de Partida para la Libertad de los Argentinos (27/12/2023)
+[x] MEN-2023-7-APN-PTE :  Ómnibus - Ley de Bases y Puntos de Partida para la Libertad de los Argentinos (27/12/2023)
 
 ## Cómo?
 
@@ -40,9 +40,9 @@ Descargando los scripts o corriendo las notebooks y pudiendo asi entender los co
 
 Abrite directamente el notebook donde hay respuestas a preguntas armadas, queres que suba mas preguntas? armate un issue y las voy sumando, o forkeate esto y pone las pregs que vos quieras.
 
-Notebook DNU-2023-70-APN-PTE : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/notebooks/DNU-2023-70-APN-PTE_analisis_con_respuestas.ipynb
+Notebook DNU-2023-70-APN-PTE (DNU) : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/notebooks/DNU-2023-70-APN-PTE_analisis_con_respuestas.ipynb
 
-Notebook DNU-2023-70-APN-PTE : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/notebooks/MEN-2023-7-APN-PTE_analisis_con_respuestas.ipynb
+Notebook MEN-2023-7-APN-PTE (Ley ómnibus) : https://github.com/vlasvlasvlas/decreto-gpt/blob/main/notebooks/MEN-2023-7-APN-PTE_analisis_con_respuestas.ipynb
 
 ![image](https://github.com/vlasvlasvlas/decreto-gpt/assets/4071796/ddbe1b16-7ec0-444f-9044-fc9128a81e0b)
 
