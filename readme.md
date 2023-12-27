@@ -61,7 +61,7 @@ Se suma una versión del gran repo de chat-your-data de langchain (https://githu
 
 ## Otras fuentes de conocimiento
 
-- se volcó a texto utf-8 el total del documento dnu y está disponible en este repo con el nombre dnu_a_texto.txt
+- se volcó a texto utf-8 el total de los documentos de dnu y leyes en la carpeta /data: https://github.com/vlasvlasvlas/decreto-gpt/tree/main/data
 
 - @agussxng (tw) armó este detalle del DNU que también esta super bueno para entender un poco más: https://docs.google.com/document/d/1vvddhIhH5MRPc2Rk1XtkBW0PV76_y5G_5UVt8v1I61A/edit
 
