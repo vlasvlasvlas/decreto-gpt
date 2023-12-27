@@ -21,12 +21,26 @@ ai_model = "gpt-4-1106-preview"
     # [x] MEN-2023-7-APN-PTE :  Ley de Bases y Puntos de Partida para la Libertad de los Argentinos (27/12/2023) : MEN-2023-7-APN-PTE_Proyecto_de_Ley_que.txt
 
 
-texto = "MEN-2023-7-APN-PTE_Proyecto_de_Ley_que.txt"
+file = "MEN-2023-7-APN-PTE_Proyecto_de_Ley_que.txt"
 
-with open('data/'+texto, 'r', encoding='utf-8') as f:
+with open('data/'+file, 'r', encoding='utf-8') as f:
     texto = f.read()
 
-    
+
+# Inicializar la lista partes
+partes = []
+
+## estrategia 1 :
+# Iterar de 1 a 3 (3 partes del documento recortado por capitulos)
+for i in range(1, 4):
+    # Leer el contenido de cada archivo
+    with open(f'../data/{file}-p{i}.txt', 'r', encoding='utf-8') as f:
+        partes.append(f.read())
+
+# Imprimir la cantidad de partes o chunks del texto
+print("-> Cant partes o chunks del texto:", len(partes))
+
+# estrategia 2 :     
 # Dividir el texto en partes usando "\nTÍTULO " como separador
 partes = texto.split("\nTÍTULO ")
 
