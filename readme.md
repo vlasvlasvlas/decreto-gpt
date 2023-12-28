@@ -65,14 +65,15 @@ Se suma una versión del gran repo de chat-your-data de langchain (https://githu
 
 - @agussxng (tw) armó este detalle del DNU que también esta super bueno para entender un poco más: https://docs.google.com/document/d/1vvddhIhH5MRPc2Rk1XtkBW0PV76_y5G_5UVt8v1I61A/edit
 
-
-- El siguiente link lleva a un documento de diferencias antes y después del decretazo DNU super interesante (documento creado por @seppo0010 del del grupo de usuaries de datos argentina https://t.me/+p9wJldjOIhE2N2Qx): https://seppo0010.github.io/decretazo/
-
+- El siguiente link lleva a un documento de diferencias antes y después del decretazo DNU super interesante (documento creado por @seppo0010 del grupo de usuaries de datos argentina): https://seppo0010.github.io/decretazo/
 
 - BLapp, Asuntos Públicos y Parlamentarios, subió un pdf el cual dejo disponible en el git (Analisis_Decreto_de_Necesidad_y_Urgencia_Bases_para_la_Reconstrucción.pdf), el cual pueden acceder, tiene una especie de diff con las modificaciones de cada ley, muy bueno.
 
 - @rama_moyano_ (tw) creó una gui para un gpt también! necesitas plus para usarlo pero acá la info: https://twitter.com/rama_moyano_/status/1737831367218716964
 
-- se comparte en formato JSON todos los articulos normalizados en formato JSON que figuran en el MEN-2023-7-APN-PTE (Ley ómnibus): https://github.com/vlasvlasvlas/decreto-gpt/blob/main/data/MEN-2023-7-APN-PTE_leyOmnibus_20231227-192229.json (documento creado por @IqJose del grupo de usuaries de datos argentina https://t.me/+p9wJldjOIhE2N2Qx) 
+- se comparte en formato JSON todos los articulos normalizados en formato JSON que figuran en el MEN-2023-7-APN-PTE (Ley ómnibus): https://github.com/vlasvlasvlas/decreto-gpt/blob/main/data/MEN-2023-7-APN-PTE_leyOmnibus_20231227-192229.json (documento creado por @IqJose del grupo de usuaries de datos argentina)
 
-- análisis del megaproyecto MEN-2023-7-APN-PTE (Ley ómnibus) en Google Drive https://docs.google.com/spreadsheets/d/1u5aHpT3SYwFjUwk8gu-5OYAEPeFFPNYdSVfab9elNBI/edit#gid=0 (documento creado por @hookdump del del grupo de usuaries de datos argentina https://t.me/+p9wJldjOIhE2N2Qx)
+
+- análisis del megaproyecto MEN-2023-7-APN-PTE (Ley ómnibus) en Google Drive https://docs.google.com/spreadsheets/d/1u5aHpT3SYwFjUwk8gu-5OYAEPeFFPNYdSVfab9elNBI/edit#gid=0 (documento creado por @hookdump del grupo de usuaries de datos argentina)
+
+- + info en el grupo de usuaries de datos argentina https://t.me/+p9wJldjOIhE2N2Qx
