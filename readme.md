@@ -67,7 +67,7 @@ Se suma una versión del gran repo de chat-your-data de langchain (https://githu
 
 - El siguiente link lleva a un documento de diferencias antes y después del decretazo DNU super interesante (documento creado por @seppo0010 del grupo de usuaries de datos argentina): https://seppo0010.github.io/decretazo/
 
-- BLapp, Asuntos Públicos y Parlamentarios, subió un pdf el cual dejo disponible en el git (Analisis_Decreto_de_Necesidad_y_Urgencia_Bases_para_la_Reconstrucción.pdf), el cual pueden acceder, tiene una especie de diff con las modificaciones de cada ley, muy bueno.
+- BLapp, Asuntos Públicos y Parlamentarios, subió un pdf el cual dejo disponible en el git (https://github.com/vlasvlasvlas/decreto-gpt/blob/main/data/Analisis_Decreto_de_Necesidad_y_Urgencia_Bases_para_la_Reconstruccio%CC%81n.pdf), el cual pueden acceder, tiene una especie de diff con las modificaciones de cada ley, muy bueno.
 
 - @rama_moyano_ (tw) creó una gui para un gpt también! necesitas plus para usarlo pero acá la info: https://twitter.com/rama_moyano_/status/1737831367218716964
 
