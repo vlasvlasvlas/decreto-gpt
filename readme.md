@@ -21,7 +21,7 @@ Descargando los scripts o corriendo las notebooks y pudiendo asi entender los co
 
 ## Pasos para instalación
 
-- Tener instalado Python 3.9+
+- Tener instalado Python 3.11+
 - Idealmente levantar un entorno virtual (ej: python -m venv venv) y usarlo (source venv/bin/activate // o en Windows: venv\Scripts\activate)
 - instalar las dependencias del requirements.txt (pip install -r requirements.txt)
 - tener una key de openai (te registrás y te dan una key)
@@ -54,18 +54,24 @@ Notebook MEN-2023-7-APN-PTE (Ley ómnibus) : https://github.com/vlasvlasvlas/dec
 Se suma una versión del gran repo de chat-your-data de langchain (https://github.com/hwchase17/chat-your-data)
 
 - lo podés usar de la carpeta de https://github.com/vlasvlasvlas/decreto-gpt/tree/main/langchain/chat-your-data del repo para el que le guste meter mano desde esa perspectiva.
-- tenes que correr ESE requirement.txt (quizá en su propio venv sería mejor!) y con el --use-feature=2020-resolver
+
+- Necesitás Python 3.11 por un tema de compatibilidad de versiones en dependencias
+
+- tenes que correr ESE requirement.txt (quizá en su propio venv sería mejor!)
+
     ```
-    pip install -r requirements.txt --use-feature=2020-resolver
+    pip install -r requirements.txt
     ```
+
+- fijate que esta usando librerías específicas de gradio y openai para tener una versión estable
     
-- YA esta creada la vector-database con el contenido de cada documento! (*.pkl)
+- YA esta creada la vector-database con el contenido de cada documento! (*.pkl) (podes renombrar cual pkl usar, en el archivo query_data.py, línea 40)
 - instalate las dependencias de la carpeta (pip install -r requirements.txt)
 - Tenés que correr un export OPENAI_API_KEY=tu_clave
 - Si querés crear tu propio pickle file lo podés hacer. Para correr el que creé yo, (lo hice en google colab) tenes que tener un dup de archivo sino no te levanta el front gradio. es decir, correr esto:
 
     ```
-    cd your_python_path/site-packages/faiss
+    cd venv/Lib/site-packages/faiss
     ln -s swigfaiss.py swigfaiss_avx2.py
     ```
 

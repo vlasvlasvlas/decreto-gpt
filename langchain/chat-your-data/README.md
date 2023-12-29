@@ -6,7 +6,23 @@ See [this blog post](blogpost.md) for a more detailed explanation.
 
 ## Step 0: Install requirements
 
-`pip install -r requirements.txt --use-feature=2020-resolver`
+- get python 3.11+
+
+- use virtual enviroment!
+
+- intall dependencies:
+
+    ```
+    pip install -r requirements.txt --use-feature=2020-resolver
+    ```
+
+- If you created your pickle file outside your machine (for example in google colab or something) and you want to use a faiss pickle file created in another machine, you'll get an error, this worked for me ! for error "ModuleNotFoundError: No module named 'faiss.swigfaiss_avx2'2 : 
+
+
+    ```
+    cd venv/Lib/site-packages/faiss
+    ln -s swigfaiss.py swigfaiss_avx2.py
+    ```
 
 ## Step 1: Set your open AI Key
 
@@ -29,11 +45,6 @@ Custom prompts are used to ground the answers in the state of the union text fil
 
 By running `python app.py` from the command line you can easily interact with your ChatGPT over your own data.
 
-## IMPORTANT
+## Pickle file vector-db
 
-If you created your pickle file outside your machine (for example in google colab or something) and you want to use a faiss pickle file created in another machine, you'll get an error, this worked for me:
-
-for error "ModuleNotFoundError: No module named 'faiss.swigfaiss_avx2'2 : 
-
-cd venv/site-packages/faiss
-ln -s swigfaiss.py swigfaiss_avx2.py
+Please change your default .pkl file, on file query_data.py, line 40.
