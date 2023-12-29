@@ -37,7 +37,7 @@ QA_PROMPT = PromptTemplate(template=template, input_variables=[
 def load_retriever():
 
     # vectorstore : copy of MEN-2023-7-APN-PTE_vectorstore
-    with open("DNU-2023-70-APN-PTE_vectorstore.pkl", "rb") as f:
+    with open("vectorstore.pkl", "rb") as f:
         print("Loading vectorstore...")
         vectorstore = pickle.load(f)
         print("Loaded.")

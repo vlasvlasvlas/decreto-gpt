@@ -33,5 +33,7 @@ By running `python app.py` from the command line you can easily interact with yo
 
 If you created your pickle file outside your machine (for example in google colab or something) and you want to use a faiss pickle file created in another machine, you'll get an error, this worked for me:
 
-cd your_python_path/site-packages/faiss
+for error "ModuleNotFoundError: No module named 'faiss.swigfaiss_avx2'2 : 
+
+cd venv/site-packages/faiss
 ln -s swigfaiss.py swigfaiss_avx2.py
