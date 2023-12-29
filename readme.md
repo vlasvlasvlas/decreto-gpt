@@ -57,6 +57,13 @@ Se suma una versión del gran repo de chat-your-data de langchain (https://githu
 - YA esta creada la vector-database con el contenido de cada documento! (*.pkl)
 - instalate las dependencias de la carpeta (pip install -r requirements.txt)
 - Tenés que correr un export OPENAI_API_KEY=tu_clave
+- Si querés crear tu propio pickle file lo podés hacer. Para correr el que creé yo, (lo hice en google colab) tenes que tener un dup de archivo sino no te levanta el front gradio. es decir, correr esto:
+
+    ```
+    cd your_python_path/site-packages/faiss
+    ln -s swigfaiss.py swigfaiss_avx2.py
+    ```
+
 - Levantás la aplicación con python app.py, y listop.
 
 ## Otras fuentes de conocimiento

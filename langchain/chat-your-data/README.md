@@ -28,3 +28,10 @@ Custom prompts are used to ground the answers in the state of the union text fil
 ## Running the Application
 
 By running `python app.py` from the command line you can easily interact with your ChatGPT over your own data.
+
+## IMPORTANT
+
+If you created your pickle file outside your machine (for example in google colab or something) and you want to use a faiss pickle file created in another machine, you'll get an error, this worked for me:
+
+cd your_python_path/site-packages/faiss
+ln -s swigfaiss.py swigfaiss_avx2.py
