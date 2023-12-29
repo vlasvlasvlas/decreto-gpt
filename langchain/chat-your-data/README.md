@@ -6,7 +6,7 @@ See [this blog post](blogpost.md) for a more detailed explanation.
 
 ## Step 0: Install requirements
 
-`pip install -r requirements.txt`
+`pip install -r requirements.txt --use-feature=2020-resolver`
 
 ## Step 1: Set your open AI Key
 
