@@ -53,7 +53,8 @@ Notebook MEN-2023-7-APN-PTE (Ley ómnibus) : https://github.com/vlasvlasvlas/dec
 
 Se suma una versión del gran repo de chat-your-data de langchain (https://github.com/hwchase17/chat-your-data)
 
-- lo podés usar de la carpeta de /langchain/chat-your-data/ del repo para el que le guste meter mano desde esa perspectiva.
+- lo podés usar de la carpeta de https://github.com/vlasvlasvlas/decreto-gpt/tree/main/langchain/chat-your-data del repo para el que le guste meter mano desde esa perspectiva.
+- tenes que correr ESE requirement.txt (quizá en su propio venv sería mejor!)
 - YA esta creada la vector-database con el contenido de cada documento! (*.pkl)
 - instalate las dependencias de la carpeta (pip install -r requirements.txt)
 - Tenés que correr un export OPENAI_API_KEY=tu_clave
