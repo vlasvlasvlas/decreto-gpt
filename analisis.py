@@ -77,6 +77,8 @@ print("-> Cant partes o chunks del texto:", len(partes))
 def hacer_pregunta(partes, pregunta):
     respuestas = []
     for parte in partes:
+        print("hacer_pregunta() parte..")
+
         respuesta = openai.ChatCompletion.create(
             model=ai_model,
             messages=[
