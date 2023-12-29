@@ -22,7 +22,7 @@ ai_model = "gpt-4-1106-preview"
 
 file = "MEN-2023-7-APN-PTE_Proyecto_de_Ley_que"
 
-with open('data/'+file, 'r', encoding='utf-8') as f:
+with open('data/'+file+".txt", 'r', encoding='utf-8') as f:
     texto = f.read()
 
 
