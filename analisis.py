@@ -13,7 +13,15 @@ api_key = os.getenv("API_KEY")
 # Configurar OpenAI
 openai.api_key = api_key
 
-ai_model = "gpt-4-1106-preview"
+ai_models = ['gpt-3.5-turbo-1106', 'gpt-4-1106-preview']
+
+# gpt-3.5-turbo-1106
+# gpt-4-1106-preview
+
+ai_model = ai_models[0]
+
+print("ai_model:",ai_model)
+
 
 # Textos disponibles:
 
@@ -21,6 +29,8 @@ ai_model = "gpt-4-1106-preview"
     # [x] MEN-2023-7-APN-PTE :  Ley de Bases y Puntos de Partida para la Libertad de los Argentinos (27/12/2023) : MEN-2023-7-APN-PTE_Proyecto_de_Ley_que.txt
 
 file = "MEN-2023-7-APN-PTE_Proyecto_de_Ley_que"
+
+
 
 with open('data/'+file+".txt", 'r', encoding='utf-8') as f:
     texto = f.read()
@@ -37,21 +47,32 @@ partes = []
 
 ## estrategia 1 :
 # Iterar de 1 a 3 (3 partes del documento recortado por capitulos)
-for i in range(1, 4):
+
+if ai_model == "gpt-4-1106-preview":
+    rangopartes = range(1, 4)
+else:
+    file = file+"-gpt3"
+    rangopartes = range(1, 7)
+
+
+for i in rangopartes:
+    print(i)
     # Leer el contenido de cada archivo
+    print("file:",f'data/{file}-p{i}.txt')
+    
     with open(f'data/{file}-p{i}.txt', 'r', encoding='utf-8') as f:
         partes.append(f.read())
 
 # Imprimir la cantidad de partes o chunks del texto
 print("-> Cant partes o chunks del texto:", len(partes))
 
-"""
 # estrategia 2 :     
 # Dividir el texto en partes usando "\nTÍTULO " como separador
-partes = texto.split("\nTÍTULO ")
+# partes = texto.split("\nTÍTULO ")
+# print("-> cant partes o chunks del texto:", len(partes))
 
-print("-> cant partes o chunks del texto:", len(partes))
-"""
+
+
 
 def hacer_pregunta(partes, pregunta):
     respuestas = []
