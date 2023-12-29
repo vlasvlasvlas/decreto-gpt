@@ -20,8 +20,7 @@ ai_model = "gpt-4-1106-preview"
     # [x] DNU-2023-70-APN-PTE : Disposiciones que desregulan la economía. (20/12/2023) : DNU-2023-70-APN-PTE_dnu_a_texto.txt
     # [x] MEN-2023-7-APN-PTE :  Ley de Bases y Puntos de Partida para la Libertad de los Argentinos (27/12/2023) : MEN-2023-7-APN-PTE_Proyecto_de_Ley_que.txt
 
-
-file = "MEN-2023-7-APN-PTE_Proyecto_de_Ley_que.txt"
+file = "MEN-2023-7-APN-PTE_Proyecto_de_Ley_que"
 
 with open('data/'+file, 'r', encoding='utf-8') as f:
     texto = f.read()
@@ -30,11 +29,17 @@ with open('data/'+file, 'r', encoding='utf-8') as f:
 # Inicializar la lista partes
 partes = []
 
+
+## FIXME: revisar cual es la mejor estrategia.
+## Esta solución no utiliza chunks ni embeddings ni vectordbs. esto pasa el texto entero, en n partes, pregunta, y despues unifica respuestas. 
+## esta solución DEMORA BASTANTE TIEMPO.
+## Se puede preferir usar chunks, embeddings y vectordbs, para eso ir por la solución via langchain o esperar que se suba una versión via scripting .py que use chunks, embeddings y vectordbs.
+
 ## estrategia 1 :
 # Iterar de 1 a 3 (3 partes del documento recortado por capitulos)
 for i in range(1, 4):
     # Leer el contenido de cada archivo
-    with open(f'../data/{file}-p{i}.txt', 'r', encoding='utf-8') as f:
+    with open(f'data/{file}-p{i}.txt', 'r', encoding='utf-8') as f:
         partes.append(f.read())
 
 # Imprimir la cantidad de partes o chunks del texto
