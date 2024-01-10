@@ -1,0 +1,10 @@
+openai
+llama_index
+trulens-eval
+python-dotenv
+utils
+pypdf
+transformers
+torch
+langchain
+langchain-community
